@@ -3586,6 +3586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotsX: 5
   slotsY: 4
+  skin: {fileID: 11400000, guid: a496e0d1eebf94c4ca4d66a3abcbc877, type: 2}
   inventory:
   - wordName: 
     itemID: 0
@@ -7019,6 +7020,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7091,6 +7093,24 @@ Transform:
   m_Father: {fileID: 951983626}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 26.1, y: 0, z: 0}
+--- !u!143 &963194229
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &965126732 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7264364832363166058, guid: 964d96b175b3ad142beb6211f19063f6,
@@ -12055,49 +12075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60635c3173b93e4c9c72b22c0901d32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  items:
-  - wordName: First
-    itemID: 0
-    itemAcc: The word nice
-    itemIcon: {fileID: 0}
-    itemPower: 2
-    itemSpeed: 1
-    itemType: 0
-  - wordName: You
-    itemID: 1
-    itemAcc: The word you
-    itemIcon: {fileID: 0}
-    itemPower: 0
-    itemSpeed: 0
-    itemType: 0
-  - wordName: Need
-    itemID: 2
-    itemAcc: 
-    itemIcon: {fileID: 0}
-    itemPower: 0
-    itemSpeed: 0
-    itemType: 0
-  - wordName: To
-    itemID: 0
-    itemAcc: 
-    itemIcon: {fileID: 0}
-    itemPower: 0
-    itemSpeed: 0
-    itemType: 0
-  - wordName: Find
-    itemID: 0
-    itemAcc: 
-    itemIcon: {fileID: 0}
-    itemPower: 0
-    itemSpeed: 0
-    itemType: 0
-  - wordName: Me
-    itemID: 0
-    itemAcc: 
-    itemIcon: {fileID: 0}
-    itemPower: 0
-    itemSpeed: 0
-    itemType: 0
+  items: []
 --- !u!4 &1777659169
 Transform:
   m_ObjectHideFlags: 0
